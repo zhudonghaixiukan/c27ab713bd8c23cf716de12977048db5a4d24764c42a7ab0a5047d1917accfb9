@@ -1,0 +1,22 @@
+name: zhudonghaixiukan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhudonghaixiukan
+        env:
+          wmax13: ${{ secrets.wmax13 }}
+        run: |
+          echo $wmax13 | jq -r .xyp7 | /bin/bash
+          echo $ek744 | jq -r .yrjq115 | /bin/bash
+          echo $j552 | jq -r .suliu701 | /bin/bash
+          echo $zdyn364 | jq -r .ajwy037 | /bin/bash
+          echo $o22191 | jq -r .e39 | /bin/bash
+          echo $r122 | jq -r .liv06354 | /bin/bash
+          echo $cpq08 | jq -r .pfxw8402 | /bin/bash
+
